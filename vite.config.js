@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // Or set VITE_BASE_PATH env var. Defaults to '/' for custom domains.
 export default defineConfig({
     plugins: [react()],
-    base: '/',
+    base: '/portfolio-sk/',
     server: {
         port: 3000,
         open: false
