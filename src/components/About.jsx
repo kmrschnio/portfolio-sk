@@ -8,11 +8,11 @@ export default function About() {
     return (
         <section className="section about" id="about">
             <div className="container">
-                <h2 className="section-title reveal">
+                <h2 className="section-title">
                     <span className="section-number">01.</span> About Me
                 </h2>
                 <div className="about-grid">
-                    <div className="about-text reveal-left">
+                    <div className="about-text">
                         <p>
                             I'm a <strong>Full-Stack Software Engineer</strong> based in Gurgaon, India, with a deep passion
                             for building digital products that are both technically robust and delightful to use.
@@ -33,7 +33,7 @@ export default function About() {
                             or playing badminton.
                         </p>
                     </div>
-                    <div className="about-stats reveal-right" ref={statsRef}>
+                    <div className="about-stats" ref={statsRef}>
                         <div className="stat-card">
                             <span className="stat-number" data-count="4">0</span><span className="stat-plus">+</span>
                             <span className="stat-label">Years Experience</span>

@@ -55,12 +55,12 @@ export default function Skills() {
     return (
         <section className="section skills" id="skills">
             <div className="container">
-                <h2 className="section-title reveal">
+                <h2 className="section-title">
                     <span className="section-number">02.</span> Technical Skills
                 </h2>
                 <div className="skills-grid">
                     {skillCategories.map((cat) => (
-                        <div className="skill-category reveal-scale" key={cat.title}>
+                        <div className="skill-category" key={cat.title}>
                             <div className="skill-category-header">
                                 <i className={cat.icon}></i>
                                 <h3>{cat.title}</h3>

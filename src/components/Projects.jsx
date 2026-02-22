@@ -49,12 +49,12 @@ export default function Projects() {
     return (
         <section className="section projects" id="projects">
             <div className="container">
-                <h2 className="section-title reveal">
+                <h2 className="section-title">
                     <span className="section-number">04.</span> Featured Projects
                 </h2>
                 <div className="projects-grid">
                     {projects.map((project, idx) => (
-                        <div className="project-card reveal-scale tilt-card" key={idx}>
+                        <div className="project-card tilt-card" key={idx}>
                             <div className="project-card-top">
                                 <div className="project-icon"><i className={project.icon}></i></div>
                                 <div className="project-links">

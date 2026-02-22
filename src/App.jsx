@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -9,10 +8,10 @@ import Education from './components/Education'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import ScrollProgress from './components/ScrollProgress'
-import { useScrollReveal } from './hooks/useScrollReveal'
+import { useGSAPScrollAnimations } from './hooks/useGSAPAnimations'
 
 export default function App() {
-    useScrollReveal()
+    useGSAPScrollAnimations()
 
     return (
         <>

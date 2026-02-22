@@ -1,5 +1,4 @@
 import { useTypingEffect } from '../hooks/useTypingEffect'
-import { useHeroParallax, useParallaxFloat } from '../hooks/useParallax'
 
 const phrases = [
     'scalable web apps.',
@@ -11,11 +10,9 @@ const phrases = [
 
 export default function Hero() {
     const typedText = useTypingEffect(phrases)
-    useHeroParallax()
-    useParallaxFloat()
 
     return (
-        <section className="hero parallax-active" id="hero">
+        <section className="hero" id="hero">
             <div className="hero-bg-effects">
                 <div className="hero-orb hero-orb--1"></div>
                 <div className="hero-orb hero-orb--2"></div>
@@ -59,7 +56,7 @@ export default function Hero() {
                         </a>
                     </div>
                 </div>
-                <div className="hero-visual parallax-float">
+                <div className="hero-visual">
                     <div className="hero-card">
                         <div className="hero-card-header">
                             <span className="dot dot--red"></span>

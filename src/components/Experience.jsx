@@ -75,12 +75,12 @@ export default function Experience() {
     return (
         <section className="section experience" id="experience">
             <div className="container">
-                <h2 className="section-title reveal">
+                <h2 className="section-title">
                     <span className="section-number">03.</span> Work Experience
                 </h2>
                 <div className="timeline" ref={timelineRef}>
                     {jobs.map((job, idx) => (
-                        <div className="timeline-item reveal-left" key={idx}>
+                        <div className="timeline-item" key={idx}>
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
                                 <div className="timeline-header">

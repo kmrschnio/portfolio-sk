@@ -24,11 +24,11 @@ export default function Contact() {
     return (
         <section className="section contact" id="contact">
             <div className="container">
-                <h2 className="section-title reveal">
+                <h2 className="section-title">
                     <span className="section-number">06.</span> Get In Touch
                 </h2>
                 <div className="contact-grid">
-                    <div className="contact-info reveal-left">
+                    <div className="contact-info">
                         <p className="contact-subtitle">
                             I'm currently open to new opportunities and always happy to connect. Whether you have
                             a project in mind, a question, or just want to say hi — my inbox is always open!
@@ -56,7 +56,7 @@ export default function Contact() {
                             </a>
                         </div>
                     </div>
-                    <form className="contact-form reveal-right" onSubmit={handleSubmit}>
+                    <form className="contact-form" onSubmit={handleSubmit}>
                         <div className="form-group">
                             <input type="text" name="formName" id="formName" placeholder="Your Name" required />
                             <label htmlFor="formName">Name</label>
